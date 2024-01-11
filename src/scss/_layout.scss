@@ -1,3 +1,78 @@
-.row div {
-  border: 2px solid black;
+.title-news {
+  height: 815px;
+  position: relative;
+  background: rgb(0, 236, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 236, 255, 0) 0%,
+    rgba(0, 0, 0, 1) 90%
+  );
+  background-image: url(../img/poutin.png);
+  background-size: cover;
+}
+
+.title-news h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  bottom: -630px;
+}
+
+.title-news span {
+  color: white;
+  font-weight: 400;
+  position: relative;
+  bottom: -660px;
+}
+
+.title-news p {
+  color: white;
+  text-align: right;
+  position: relative;
+  bottom: -670px;
+}
+
+// .under-text {
+//   color: white;
+//   font-weight: 400;
+//   position: relative;
+//   bottom: -660px;
+// }
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+// .img-title {
+//   position: absolute;
+//   height: 800px;
+// }
+
+// .img-title img {
+//   object-fit: cover;
+// }
+
+//////////////////////////////////////title
+
+h3 {
+  font-size: 28px;
+  padding-top: 60px;
+  margin-bottom: 35px;
+}
+
+.economie {
+  color: #7cd401;
+}
+
+.international {
+  color: #f40f97;
+}
+
+.suisse {
+  color: #e41e13;
+}
+
+.sport {
+  color: #068763;
 }

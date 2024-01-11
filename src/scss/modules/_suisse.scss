@@ -1,0 +1,38 @@
+.suisse-case {
+  position: relative;
+  height: 500px;
+  background-image: url(../img/pierre.png);
+  background-size: cover;
+  color: white;
+  border-bottom: 8px solid #e41e13;
+}
+
+.suisse-case h4 {
+  position: absolute;
+  font-size: 26px;
+  bottom: 50px;
+}
+
+.suisse-case span {
+  position: absolute;
+  bottom: 20px;
+  font-size: 18px;
+}
+
+.suisse-case .comment {
+  position: absolute;
+  font-size: 16px;
+  bottom: 35px;
+  right: 15px;
+}
+
+.suisse-case .comment img {
+  padding-left: 10px;
+}
+
+.suisse-case p {
+  position: absolute;
+  font-size: 16px;
+  bottom: 10px;
+  right: 15px;
+}
