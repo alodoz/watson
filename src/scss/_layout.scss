@@ -21,6 +21,7 @@
 
 .title-news span {
   color: white;
+  font-size: 24px;
   font-weight: 400;
   position: relative;
   bottom: -660px;
@@ -75,4 +76,26 @@ h3 {
 
 .sport {
   color: #068763;
+}
+
+@media (max-width: 834px) {
+  .title-news h2 {
+    font-size: 24px;
+  }
+  .container h2 {
+    font-size: 24px;
+  }
+
+  .container h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .title-news span,
+  p {
+    font-size: 18px;
+  }
 }

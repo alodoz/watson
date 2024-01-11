@@ -44,6 +44,7 @@ img, video {
 
 .title-news span {
   color: #fff;
+  font-size: 24px;
   font-weight: 400;
   position: relative;
   bottom: -660px;
@@ -80,6 +81,20 @@ h3 {
 
 .sport {
   color: #068763;
+}
+
+@media (width <= 834px) {
+  .title-news h2, .container h2, .container h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .title-news span, p {
+    font-size: 18px;
+  }
 }
 
 .economie-case {
